@@ -85,6 +85,14 @@ Skin Lesions (ISIC): https://challenge.isic-archive.com/
 
 Make sure to download the dataset and organize it accordingly into train/ and val/ folders.
 
+## Streamlit app
+
+A web interface to upload an image that shows model prediction (e.g., “Normal” or “Abnormal”). Then, it displays a Grad-CAM heatmap overlay.
+
+## Dockerfile
+
+Uses a lightweight Python base. Installs dependencies and runs the Streamlit app.
+
 ## Tech stack
 
 ```bash
